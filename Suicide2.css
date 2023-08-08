@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
+
+
+.suicide {
+    background-image: url(https://i0.wp.com/artbyrice.com/wp-content/uploads/2018/08/black-background-wood-i-e29da4-4k-hd-desktop-wallpaper-for-4k-ultra-hd.jpg?fit=2560%2C1600&ssl=1);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    /* min-width: 50vw;
+    min-height: 50vh; */
+
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+* {
+    font-family: 'Gafata', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    }
+
+/* .idk{
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 87, 87);
+    width:1000px;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    align-items: flex-end;
+} */
+
+.idk {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    text-align: center;
+    background-color: #111;
+}
+
+nav {
+    align-items: center;
+    color: rgb(42, 42, 42);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    background-color: rgb(70, 69, 69);
+    color:white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    background-color: rgb(59, 59, 59);
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+#banner{
+    color: white;
+}
+table{
+    width: fit-content;
+    align-items: center;
+}

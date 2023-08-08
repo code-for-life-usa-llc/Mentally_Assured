@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
+
+nav {
+    align-items: center;
+    color: rgb(42, 42, 42);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    background-color: rgb(70, 69, 69);
+    color:white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    background-color: rgb(59, 59, 59);
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+* {
+    font-family: 'Gafata', sans-serif;
+}
