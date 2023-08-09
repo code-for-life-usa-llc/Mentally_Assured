@@ -1,0 +1,90 @@
+.main {
+    background-color: rgb(173, 93, 248);
+    width: 400px;
+    height: 500px;
+    font-family: cursive;
+    box-shadow: 15px 15px 15px purple;
+    padding: 10px;
+    border-style: dashed
+}
+.main2 {
+    position: absolute;
+    left: 525px;
+    top: 140px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(177, 61, 179);
+    font-family: cursive;
+    box-shadow: 15px 15px 15px purple;
+    padding: 10px;
+    border-style: dashed
+}
+.main3 {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(185, 55, 214);
+    font-family: cursive;
+    box-shadow: 15px 15px 15px purple;
+    padding: 10px;
+    border-style: dashed
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(222, 71, 252);
+    text-shadow: 15px 15px black;
+}
+
+body {
+    background-color: rgb(1, 4, 6)
+}
+
+.image {
+    position: absolute;
+    left: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    background-color: purple;
+    display: flex;
+    text-align: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    background-color: rgb(208, 87, 239);
+    text-decoration: none;
+    color: black;
+
+}
+
+li a:hover{
+    background-color: #111;
+    color:white;
+}
+
+
+.image {
+    position: relative;
+    right: 9p;
+}
+
+#addiction_img{
+    position: relative;
+    top: 55px;
+}
+
+#addiction_2{
+   position: relative;
+    bottom: 20px;
+}

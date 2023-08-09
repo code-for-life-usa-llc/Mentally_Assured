@@ -1,0 +1,94 @@
+body{
+  background-color: rgb(50, 6, 55);
+}
+
+#box{
+    background-color: rgba(204, 58, 136, 0.181);
+    border: 0px;
+    position: relative;
+    top: 0px ;
+    left: 150px;
+    background-color:rgba(248, 150, 250, 0.774); 
+    
+    width: 960px;
+    border:solid rgb(166, 82, 199);
+    padding: 100px; 
+    margin: 20px;
+    border-style:dotted;
+    text-shadow: #e53636;
+    padding: 60px;
+    
+    }
+#syd{
+    border: 3px solid rgb(98, 31, 31);
+    width: fit-content ;
+    padding: 75px;
+    position: relative;
+    align-items: right;
+    display: center;
+    background-color: rgb(247, 127, 147);
+   
+}
+    
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+  background-color: rgb(162, 31, 31); 
+}
+#les{
+    border: 3px solid rgb(4, 5, 6);
+    width: fit-content ;
+    padding: 75px;
+    position: relative;
+    background-color:white;
+}
+#ash{
+    border: 3px solid rgb(0, 0, 0);
+    width: fit-content ;
+    padding: 40px;
+    padding-bottom: 111px;
+    position: relative;
+    background-attachment: fixed;
+    background-color:rgb(246, 93, 167);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  flex-direction: row;
+  background-color: rgb(247, 79, 132);
+  display: flex;
+  text-align: left;
+  box-shadow: 0px 0px 50px purple;
+}
+li a {
+  display: block;
+  padding: 14px 16px;
+  background-color: rgb(190, 124, 241);
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+#intro{
+  background-color:lightblue;
+}
+
+#top{
+  background-color: rgb(142, 255, 127);
+}
+
+#the-image{
+  height: 46px;
+}
+
