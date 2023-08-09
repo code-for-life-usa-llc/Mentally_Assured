@@ -51,7 +51,7 @@ body {
 }
 
 nav {
-    align-items: center;
+
     color: rgb(42, 42, 42);
     color: white;
 }
@@ -65,7 +65,7 @@ ul {
     background-color: rgb(70, 69, 69);
     color:white;
     display: flex;
-    justify-content: center;
+
     
 }
 
@@ -95,3 +95,4 @@ table{
     width: fit-content;
     align-items: center;
 }
+
