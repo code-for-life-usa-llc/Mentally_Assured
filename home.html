@@ -10,7 +10,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
         body {
             background-color: plum;
+            overflow-x: hidden;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
         }
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
         .hr {
             color: black;
             background-color: black;
@@ -65,7 +72,7 @@
         }
         .paragraph p {
             margin: 50px;
-            line-height: 25px;
+            line-height: 200%;
         }
         #logo {
             height: 46px;
@@ -75,6 +82,8 @@
             color: black;
             font-weight: 700;
         }
+
+
     </style>
 </head>
 <body>
