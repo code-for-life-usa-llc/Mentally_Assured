@@ -23,7 +23,13 @@
 body {
     text-align: center;
     background-color: #111;
-}
+    overflow-x: hidden;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        body::-webkit-scrollbar {
+            display: none;
+        }
 
 nav {
     align-items: center;
@@ -40,7 +46,6 @@ ul {
     background-color: rgb(70, 69, 69);
     color:white;
     display: flex;
-    
 }
 
 li a {

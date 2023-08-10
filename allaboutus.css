@@ -1,18 +1,28 @@
 body{
-  background-color: rgb(50, 6, 55)
+  background-color: rgb(50, 6, 55);
+  overflow-x: hidden;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        body::-webkit-scrollbar {
+            display: none;
+}
 
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #box{
     background-color: rgba(204, 58, 136, 0.181);
     border: 0px;
-    position: relative;
-    top: 0px ;
-    left: 150px;
     background-color:rgba(248, 150, 250, 0.774); 
     
     width: 960px;
     border:solid rgb(166, 82, 199);
+    border-radius: 20px;
     padding: 100px; 
     margin: 20px;
     border-style:dotted;
@@ -24,7 +34,6 @@ body{
     border: 3px solid rgb(98, 31, 31);
     width: fit-content ;
     padding: 75px;
-    position: relative;
     align-items: right;
     display: center;
     background-color: rgb(247, 127, 147);
@@ -40,12 +49,13 @@ body{
 .Column {
   display: table-cell;
   background-color: rgb(162, 31, 31); 
+  border-radius: 7px;
 }
 #les{
     border: 3px solid rgb(4, 5, 6);
     width: fit-content ;
     padding: 75px;
-    position: relative;
+
     background-color:white;
 }
 #ash{
@@ -53,7 +63,6 @@ body{
     width: fit-content ;
     padding: 40px;
     padding-bottom: 111px;
-    position: relative;
     background-attachment: fixed;
     background-color:rgb(246, 93, 167);
 }
@@ -83,6 +92,8 @@ li a:hover {
 
 #intro{
   background-color:lightblue;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 #top{
@@ -93,3 +104,9 @@ li a:hover {
   height: 46px;
 }
 
+h1 {
+  margin: 6vh 0;
+}
+h2 {
+  line-height: 150%;
+}

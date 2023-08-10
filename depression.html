@@ -12,12 +12,24 @@
         p {
             text-shadow: 0px 0px 5px plum;
             font-family: 'Montserrat', sans-serif;
-            font-size: 20px;
+            font-size: 150%;
             text-align: center;
             color: black;
         }
+        #content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10vh;
+        }
         body {
             background-color: plum;
+            overflow-x: hidden;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        body::-webkit-scrollbar {
+            display: none;
         }
         .hr {
             color: black;
@@ -25,14 +37,11 @@
         }
         h1 {
             text-align: center;
-            font-size: 30px;
+            font-size: 300%;
             font-family: 'Montserrat', sans-serif;
         }
         #MenImg {
             width: 50%;
-            display: flex;
-            position: relative;
-            left: 375px;
             box-shadow: 0px 0px 50px purple;
         }
         .logo {
@@ -86,6 +95,8 @@
     <li><a href="Therapy.html"> Therapy</a></li>
     <li><a href="allaboutus.html"> About Us</a></li>
 </ul>
+<div id="content">
+<h1>Depression</h1>
 <p>Depression affects how you feel, think and behave and can lead to a variety of emotional and physical problems. 
     You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. 
     Depression may be described as feelings of sadness, loss, or anger that can cause problems in someones everyday life. 
@@ -99,7 +110,7 @@
 
 </p>
 <img id="MenImg" src="https://clearrecoverycenter.com/wp-content/uploads/2019/02/BlogImg_Depression1.jpg">
-
+</div>
 </body>
 </html>
 

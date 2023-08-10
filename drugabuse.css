@@ -1,35 +1,38 @@
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 .main {
     background-color: rgb(173, 93, 248);
     width: 400px;
     height: 500px;
     font-family: cursive;
     box-shadow: 15px 15px 15px purple;
-    padding: 10px;
-    border-style: dashed
+    padding: 20px;
+    border-style: dashed;
+    border-radius: 10px;
 }
 .main2 {
-    position: absolute;
-    left: 525px;
-    top: 140px;
     width: 400px;
     height: 500px;
     background-color: rgb(177, 61, 179);
     font-family: cursive;
     box-shadow: 15px 15px 15px purple;
-    padding: 10px;
-    border-style: dashed
+    padding: 20px;
+    border-style: dashed;
+    border-radius: 10px;
 }
 .main3 {
-    position: absolute;
-    left: 500px;
-    top: 0px;
     width: 400px;
     height: 500px;
     background-color: rgb(185, 55, 214);
     font-family: cursive;
     box-shadow: 15px 15px 15px purple;
-    padding: 10px;
-    border-style: dashed
+    padding: 20px;
+    border-style: dashed;
+    border-radius: 10px;
 }
 
 h1 {
@@ -76,16 +79,16 @@ li a:hover{
 
 
 .image {
-    position: relative;
-    right: 9p;
+    /*position: relative;
+    right: 9p;*/
 }
 
 #addiction_img{
-    position: relative;
-    top: 55px;
+    /*position: relative;
+    top: 55px;*/
 }
 
 #addiction_2{
-   position: relative;
-    bottom: 20px;
+   /*position: relative;
+    bottom: 20px;*/
 }
