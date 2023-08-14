@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>counterlesson</title>
+        <style>
+            #paragraph{
+                background-color: aqua;
+                padding: 50px;
+                font-size: 50px;
+                min-width: 100px;
+                min-height: 100px;
+                width: fit-content;
+            }
+        </style>
+        <script>
+            function greeting () {
+            let x = "hello world";
+            document.getElementById('paragraph').innerHTML = x; 
+            }
+        </script>
+    </head>
+    <body>
+        <p id="paragraph"></p>
+        <button onclick="greeting;()">hello world</button>
+    </body>
+    </html>

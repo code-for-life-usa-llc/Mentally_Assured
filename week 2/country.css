@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(255, 245, 189);
+    color:rgb(244, 174, 44);
+}
+
+title{
+    color:rgb(244, 174, 44);
+}
+
+hr{
+    color: darksalmon;
+}
+h1{
+   color: rgb(244, 174, 44);
+   font-family:fantasy;
+   font: size 70px;
+   background-color: rgb(255, 242, 126);
+}
+
+p{
+    color:rgb(244, 174, 44);
+    font-family:fantasy;
+    font-size:70px;
+    background-color: rgb(249, 249, 121);
+}

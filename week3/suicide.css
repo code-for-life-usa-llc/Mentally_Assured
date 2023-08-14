@@ -1,0 +1,92 @@
+*{
+    text-align: left;
+}
+
+.h1{
+    font-family: cursive;
+    font-size: 150%;
+    background-color: rgb(247, 217, 166);
+    border-block-style: solid;
+    color: rgb(244, 165, 96);
+    height: 50px;
+    width: 50px;
+}
+
+body{
+    background-color:rgb(255, 228, 179);
+    color:rgb(244, 165, 96);
+    font-family: cursive
+    
+
+}
+
+p {
+            color:rgb(255, 142, 44);
+           background-color: rgb(246, 189, 139);
+            width: 200px;
+            height: 200px;
+            margin: 400px 400px 400px 400px;
+}
+
+div {
+    background-color: rgb(251, 229, 194);
+  }
+  
+  .example1 {
+border-block-style: solid;
+background-color:  rgb(251, 229, 194);
+color:rgb(244, 165, 96);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+
+min-width: 100vw;
+min-height: 100vh;
+
+position: absolute;
+top: 0px;
+left: 0px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+  }
+
+img{ border-inline-color: rgb(232, 202, 154) ;
+}
+
+#table{
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  min-width: 100vw;
+  min-height: 100vh;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+table,th,td{
+  border: 1px solid rgb(231, 173, 58);
+  border-collapse: collapse;
+  text-align: center;
+  }
+
+  th,td{
+      color:  rgb(244, 165, 96);
+  background-color: rgb(251, 229, 194);
+  width: 200px;
+  height: 200px;
+  margin: 400px 400px 400px 400px;
+  }
+  
+
+

@@ -1,0 +1,28 @@
+.h1 {
+    front-size: 36px;
+    front-family:fantasy;
+    background-color: rgb(88, 210, 88);
+    border: 9px solid rgb(171, 237, 237);
+    width: fit-content;
+}
+
+.h2{
+    front-size: 36px;
+    front-family:fantasy;
+    background-color: rgb(69, 183, 69);
+    border: 9px solid rgb(177, 241, 241);
+    width: fit-content
+}
+
+#food{
+    font-size: 18px;
+    background-color: rgb(233, 233, 179);
+    border: 6px dashed palegreen;
+    width: fit-content;
+
+}
+
+.black{
+    padding: 20px;
+    background-color: pink;
+}

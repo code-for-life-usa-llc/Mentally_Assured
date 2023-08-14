@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #page{
+            width: fit-content;
+        }
+
+        #content{
+            /*border: 1px solid black;*/
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button{
+         width: fit-content;
+         height: 40px;
+         margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <body id="page">
+     <h1 id="color-text">The color is ... </h1>
+    </body>
+    <table>
+        <tr>
+    <div id="content"><td>
+        <button onclick="document.body.style.backgroundColor = 'plum'; document.getElementById('color-text').innerHTML = 'plum'">plum</button>
+      <div id="page"></div><td>
+        <button onclick="document.body.style.backgroundColor = 'violet'; document.getElementById('color-text').innerHTML = 'violet'">violet</button>
+     <div id="light mode"><td>
+        <button onclick="document.body.style.backgroundColor = 'purple'; document.getElementById('color-text').innerHTML = 'purple'">purple</button>
+         <iv id="page"></iv>
+        <div id="dark mode"><td>
+            <button onclick="document.body.style.backgroundColor = 'blue'; document.getElementById('color-text').innerHTML = 'blue'">blue</button>
+    </tr>
+   </table>
+</body>
+</html>

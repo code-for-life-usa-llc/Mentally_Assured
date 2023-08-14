@@ -1,0 +1,25 @@
+p{
+  color:snow;
+  background-color: rgb(249, 163, 249); 
+  font-family:cursive;
+  width: fit-content;
+}
+
+#p1{
+    color:rgb(255, 255, 255);
+    background-color:rgb(255, 206, 255);
+    font-family: cursive;
+    width: fit-content;
+}
+
+#p2{
+    color:snow;
+    background-color:plum;
+    font-family:cursive;
+    width:fit-content;
+}
+
+body{
+    background-color:  rgb(255, 237, 243);
+    color: violet;
+}
